@@ -9,44 +9,45 @@
 	box-sizing: border-box;
 }
 
-main{
-	display: flex;
-	width: 90%;			
-	margin: 0 auto;
-	justify-content: center;
-	background-color: white;
-
+body{
+	background-color: black;
 }
 
-main img{
-	padding: 2%;
+main{
+	display: flex;
+	width: 100%;			
+	margin: 0 auto;
+	justify-content: center;
+	border: solid 4px red;
 }			
 
 footer{
-    border: solid 7px yellow;
+    border: solid 4px yellow;
 	display: flex;			
 	width: 100%;
 	justify-content: center;
-	margin-top: 1%;
+	margin-top: 0.8%;
 
 }	
 
 footer div{
 	flex: 1 1 70%;	
-	background-color: red;									
+	background-color: red;								
 }
 
 footer p{
-	font-family: 'lego','Courier New', Courier, monospace;
+	font-family: 'Stick-Regular','Courier New', Courier, monospace;
 	text-align: center;
-	font-size: 10px;
-	padding: 2%;		
-	color:white							
+	font-size: 18px;	
+	padding: 1%;	
+	color:white;
+	margin-block-start: 2px;
+	margin-block-end: 2px;					
 }
 
 @font-face{
-	font-family: "lego";
-	src: url('../fonts/LEGO\ BRIX.ttf');
+	font-family: "Stick-Regular";
+	src: url('../fonts/Stick-Regular.ttf');
 }
 
 		</style>
@@ -60,17 +61,17 @@ footer p{
 	</main>		
 	
 	<footer>
-		<div class="aviso">		
-			<p>Aviso legal<br/>Este sitio web hace utilización de Cookies para el registro de navegación.Este registro se utiliza unicamente con e afan de ofrecer mejor publicidad y no puede ser ofrecida a terceros.</p>
+		<div>		
+			<p><strong>AVISO LEGAL</strong><br/>Este sitio web utiliza Cookies para el registro de navegación.
+				 Este registro se usa únicamente con el afán de ofrecer una mejor publicidad y no poder ser ofrecida a terceros.</p>
 		</div>
 		<div>
-			<p>Redes sociales<br/>Instragram<br/>Twitter<br/>Facebook<br/>Youtube</p>
+			<p><strong>REDES SOCIALES</strong><br/>Instragram<br/>Twitter<br/>Facebook<br/>Youtube</p>
 		</div>
 		<div>
-			<p>Realizado por:<br/><br/>Daniel Martínez León<br/>David Falla Urtiaga</p>	
+			<p><strong>PROYECTO REALIZADO POR:</strong><br/><br/>Daniel Martínez León<br/>David Falla Urtiaga</p>	
 		</div>					
 	</footer>
-	
 	
 </body>
 </html>
