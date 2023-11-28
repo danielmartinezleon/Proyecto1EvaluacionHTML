@@ -4,18 +4,63 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Portada</title>	
-		<link rel="stylesheet" type="text/css" href="../css/">		
+		<style type="text/css">	
+*{
+	box-sizing: border-box;
+}
+
+main{
+	display: flex;
+	width: 90%;			
+	margin: 0 auto;
+	justify-content: center;
+	background-color: white;
+
+}
+
+main img{
+	padding: 2%;
+}			
+
+footer{
+    border: solid 7px yellow;
+	display: flex;			
+	width: 100%;
+	justify-content: center;
+	margin-top: 1%;
+
+}	
+
+footer div{
+	flex: 1 1 70%;	
+	background-color: red;									
+}
+
+footer p{
+	font-family: 'lego','Courier New', Courier, monospace;
+	text-align: center;
+	font-size: 10px;
+	padding: 2%;		
+	color:white							
+}
+
+@font-face{
+	font-family: "lego";
+	src: url('../fonts/LEGO\ BRIX.ttf');
+}
+
+		</style>
 </head>
 <body>
 
 	<audio src="../audio/Slipknot - Psychosocial.mp3" controls autoplay preload="auto"></audio>
 
 	<main>
-		<img src="../img/portada.jpg" width="100%">Portada Legoland DINAMARCA</img>		
+		<img src="../img/portada.jpg" width="100%"></img>		
 	</main>		
 	
 	<footer>
-		<div>		
+		<div class="aviso">		
 			<p>Aviso legal<br/>Este sitio web hace utilización de Cookies para el registro de navegación.Este registro se utiliza unicamente con e afan de ofrecer mejor publicidad y no puede ser ofrecida a terceros.</p>
 		</div>
 		<div>
