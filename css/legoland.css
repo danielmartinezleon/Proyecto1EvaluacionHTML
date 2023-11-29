@@ -2,16 +2,31 @@ header{
     text-align: center;
 }
 
-nav{
+nav ul{
     flex: 1 1 50%;	
-	padding: 2%;
     margin: 0 auto;
     width: 85%;	
+    height: 56px;
     text-align: center;
     background-color: rgb(14, 207, 237);
-    color: blueviolet;
     font-size: 20pt;
     border-radius: 10pt;
+    list-style-type: none;
+    margin-top: -4px;		
+	display: flex;
+}
+
+nav li{	
+	font-size: 16pt;
+	text-align: center;	
+	flex: 1 1 25%;		
+	padding-top: 17px;		
+}
+
+nav li a{
+	text-decoration: none;
+	color: white;
+    color: blueviolet;
 }
 
 body{
