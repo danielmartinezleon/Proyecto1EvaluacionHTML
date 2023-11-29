@@ -11,7 +11,7 @@ header{
 nav ul{
     flex: 1 1 50%;	
     margin: 0 auto;
-    width: 85%;	
+    width: 100%;	
     height: 56px;
     text-align: center;
     background-color: rgb(14, 207, 237);
@@ -48,11 +48,41 @@ body{
     border-radius: 10pt;
 }
 
-#contenido aside{
-	flex: 1 1 35%;
+#contenido {
+    display: flex;
+    flex: 1;
+}
+
+#contenido aside {
+    flex: 1;
+    text-align: center;
+    padding-top: 5%;
+    line-height: 100pt;
+    background-color: rgb(233, 19, 19);
+}
+
+footer{
+    border: solid 4px rgb(0, 221, 255);
+	display: flex;			
+	width: 100%;
+	height: 120px;
+	justify-content: center;
+	margin-top: 0.8%;
+}	
+
+footer div{
+	flex: 1 1 70%;	
+	background-color: red;								
+}
+
+footer p{
+	font-family: 'Stick-Regular','Courier New', Courier, monospace;
 	text-align: center;
-	padding-top: 5%;
-	line-height: 100pt;
+	font-size: 13px;	
+	padding: 1%;	
+	color:white;
+	margin-block-start: 2px;
+	margin-block-end: 2px;					
 }
 
 @font-face{
