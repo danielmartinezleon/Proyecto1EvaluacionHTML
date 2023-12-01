@@ -91,6 +91,43 @@ footer p{
 	margin-block-end: 2px;					
 }
 
+.carrusel{
+    display: flex;
+	width: 95%;
+    height: auto;
+	margin: 0 auto;
+	justify-content: center;
+    border: 3px black solid;
+
+}
+
+.contenido img{
+    width: 100%;
+}
+
+.izq{
+    border-right: 3px black solid;
+}
+
+.der{
+    border-left: 3px black solid;
+}
+
+.carrusel aside{
+    display: flex;
+    flex: 1 1 10%;
+	padding: 2%;
+	background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrusel aside img{
+    display: flex;
+    width: 80%;
+}
+
+
 @font-face{
 	font-family: "Stick-Regular";
 	src: url('../fonts/Stick-Regular.ttf');
