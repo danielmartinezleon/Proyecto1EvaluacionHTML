@@ -40,7 +40,7 @@ nav li a{
 }
 
 body{
-    background-color: yellow;
+    background-image: url(../img/fondo.jpg);
 }
 
 #contenido main{
@@ -106,7 +106,7 @@ footer p{
 }
 
 .izq{
-    border-right: 3px black solid;
+    border-right: 2px black solid;
 }
 
 .der{
