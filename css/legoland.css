@@ -3,6 +3,19 @@
     font-family: 'Stick-Regular','Courier New', Courier, monospace;
 }
 
+h1{
+	color: #FEDC00;
+	background-color: red;
+	text-indent: 6px;
+}
+
+h2{
+	color: #FEDC00;
+	background-color: blue;
+	text-indent: 6px;
+}
+
+
 
 header{
     text-align: center;
@@ -25,18 +38,20 @@ nav ul{
 
 nav{
     margin-top: 7px;
+	text-align: center;
 }
 
 nav li{	
 	font-size: 16pt;
 	text-align: center;	
 	flex: 1 1 25%;		
-	padding-top: 8px;		
+	padding-top: 8px;	
+	padding-right: 60px;	
 }
 
 nav li a{
 	text-decoration: none;
-    color: blueviolet;
+    color:blueviolet;
 }
 
 body{
@@ -49,6 +64,7 @@ body{
 	flex: 1 1 100%;
 	padding: 2%;
 	background-color: white;
+	text-align: justify;
 }
 
 #contenido {
@@ -63,7 +79,7 @@ body{
     text-align: center;
     padding-top: 2%;
     line-height: 100pt;
-    background-color: rgb(233, 19, 19);
+    background-color: red;
     border-left: solid 4px black;
 }
 
@@ -134,23 +150,17 @@ footer p{
 }
 
 
-
-
-
-
-
-
-
 #contenido main section{
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
+	text-align: justify;
 }
 
 #contenido main section article{
-	background-color: #FEDC00;
+	background-color: red;
 	border:0 solid transparent;
 	border-radius: 15px;
-
 	flex:0 0 30%;		
 	margin:1%;
 }
@@ -158,7 +168,6 @@ footer p{
 #contenido main section article p{
 	color: white;
 	font-size: 12pt;
-
 	width: 85%;
 	margin: 20px auto;	
 }
@@ -174,13 +183,12 @@ footer p{
 }
 
 #contenido main section article .boton{
-	background-color: white;
-	color: #FEDC00;
+	background-color: #FEDC00;
+	color:black;
 	text-align: center;
 	font-weight: bolder;
 	font-size: 14pt;
 	border-radius: 5px;
-
 	width: 50%;
 	padding: 5px;	
 }
