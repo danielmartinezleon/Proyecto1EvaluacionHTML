@@ -132,3 +132,55 @@ footer p{
 	font-family: "Stick-Regular";
 	src: url('../fonts/Stick-Regular.ttf');
 }
+
+
+
+
+
+
+
+
+
+#contenido main section{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#contenido main section article{
+	background-color: #FEDC00;
+	border:0 solid transparent;
+	border-radius: 15px;
+
+	flex:0 0 30%;		
+	margin:1%;
+}
+
+#contenido main section article p{
+	color: white;
+	font-size: 12pt;
+
+	width: 85%;
+	margin: 20px auto;	
+}
+
+#contenido main section article img{
+	width: 100%;	
+}
+
+#contenido main section article .precio{
+	text-align: right;
+	font-size: 18pt;
+	font-weight: bolder;
+}
+
+#contenido main section article .boton{
+	background-color: white;
+	color: #FEDC00;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 14pt;
+	border-radius: 5px;
+
+	width: 50%;
+	padding: 5px;	
+}
